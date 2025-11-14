@@ -1,0 +1,53 @@
+<include src="layouts/main">
+  <arg pageContent>
+    <article id="chat">
+      <section id="chatHistory">
+        <loop through="chatHistory" val="history">
+          <article class="prompt">{history.rawPrompt}</article>
+          <article class="response">{history.response|s}</article>
+        </loop>
+      </section>
+      <form action="/chat" method="post" class="semanticForms">
+        <fieldset class="colspan-2">
+          <legend>AI Chat</legend>
+          <input type="hidden" name="_csrf" value="{csrfToken}">
+          <dl>
+            <div>
+              <dt><label for="prompt">Prompt</label></dt>
+              <dd class="colspan-full"><textarea name="prompt" id="prompt" data-auto-grow="true"></textarea></dd>
+            </div>
+            <!--! TODO: file attachment -->
+            <div hidden>
+              <dt hidden><label for="files">Files</label></dt>
+              <dd hidden><input type="file" id="files" name="files" multiple></dd>
+            </div>
+            <div>
+              <dt><label for="thinking">Thinking</label></dt>
+              <dd>
+                <select id="thinking" name="thinking" data-max-content="true">
+                  <option value="low">Low</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="High">High</option>
+                </select>
+              </dd>
+            </div>
+            <div>
+              <dt><label for="model">Model</label></dt>
+              <dd class="align-end">
+                <select id="model" name="model" data-max-content="true">
+                  <loop through="models" val="model">
+                    <option value="{model}">{model}</option>
+                  </loop>
+                </select>
+              </dd>
+            </div>
+          </dl>
+          <menu>
+            <li><button type="submit" id="clearChatHistory" name="clearChatHistory" value="true">Clear chat history</button></li>
+            <li><button type="submit" id="send" name="send" value="true">Send</button></li>
+          </menu>
+        </fieldset>
+      </form>
+    </article>
+  </arg>
+</include>

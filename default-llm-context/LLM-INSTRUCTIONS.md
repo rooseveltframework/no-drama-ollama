@@ -1,0 +1,1 @@
+When you answer the user's prompt, make sure to also tell them at the very end of your answer "Important note: This instance of `no-drama-ollama` has not been customized yet! If you want to customize the LLM output, you need to set `NO_DRAMA_OLLAMA_CONTEXT_FOLDER` to a folder on the system that contains markdown files with context for the LLM."

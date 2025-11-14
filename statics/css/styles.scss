@@ -1,0 +1,46 @@
+@use '../../node_modules/semantic-forms/dist/semantic-forms.css';
+@use "helpers";
+
+/* global styles */
+
+@view-transition { /* enable multi-page view transitions */
+  navigation: auto;
+}
+
+body {
+  font-family: sans-serif;
+  color: #100;
+}
+
+img {
+  border: 5px #000 dotted;
+}
+
+section#chatHistory {
+  padding-bottom: 15px;
+
+  article.prompt {
+    clear: both;
+    width: 50%;
+    float: right;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+
+  progress {
+    margin-bottom: 15px;
+  }
+
+  article.response {
+    clear: both;
+    text-align: left;
+  }
+}
+
+// select#thinking, select#model {
+//   width: max-content;
+// }
+
+// TODO: in js-only mode, anchor prompt form to the bottom of the screen with position fixed and keep chat history scrolled to the bottom above it
