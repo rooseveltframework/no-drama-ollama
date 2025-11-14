@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "check-if-css-is-disabled": "2.0.2",
-    "ollama": "0.6.2",
+    "ollama": "0.6.3",
     "roosevelt": "0.31.4",
     "sass": "1.94.0",
     "semantic-forms": "5.3.1",
