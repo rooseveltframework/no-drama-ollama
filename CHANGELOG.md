@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Slimmed down the npm package some more.
+
 ## 0.1.2
 
 - Slimmed down the npm package.

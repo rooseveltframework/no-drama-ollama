@@ -1,3 +1,4 @@
+.build
 .npm-cache
 .gitattributes
 .github/*
