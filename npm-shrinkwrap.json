@@ -13,7 +13,7 @@
         "ollama": "0.6.3",
         "roosevelt": "0.31.7",
         "sass": "1.95.1",
-        "semantic-forms": "5.3.2",
+        "semantic-forms": "5.3.4",
         "showdown": "2.1.0",
         "teddy": "1.1.4",
         "webpack": "5.103.0"
@@ -111,6 +111,7 @@
       "integrity": "sha512-FA5LmZVF1VziNc0bIdCSA1IoSVnDCqE8HJIZZv2/W8YmoAM50+tnUgJR/gQZwEeIMleuIOnRnHA/UaZRNeV4iQ==",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "@keyv/serialize": "^1.1.1"
       }
@@ -229,6 +230,7 @@
         }
       ],
       "license": "MIT",
+      "peer": true,
       "engines": {
         "node": ">=18"
       },
@@ -271,6 +273,7 @@
         }
       ],
       "license": "MIT",
+      "peer": true,
       "engines": {
         "node": ">=18"
       }
@@ -1332,6 +1335,7 @@
       "resolved": "https://registry.npmjs.org/acorn/-/acorn-8.14.1.tgz",
       "integrity": "sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==",
       "license": "MIT",
+      "peer": true,
       "bin": {
         "acorn": "bin/acorn"
       },
@@ -1375,6 +1379,7 @@
       "resolved": "https://registry.npmjs.org/ajv/-/ajv-8.17.1.tgz",
       "integrity": "sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==",
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "fast-deep-equal": "^3.1.3",
         "fast-uri": "^3.0.1",
@@ -1884,6 +1889,7 @@
         }
       ],
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "baseline-browser-mapping": "^2.9.0",
         "caniuse-lite": "^1.0.30001759",
@@ -3281,6 +3287,7 @@
       "deprecated": "This version is no longer supported. Please see https://eslint.org/version-support for other options.",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "@eslint-community/eslint-utils": "^4.2.0",
         "@eslint-community/regexpp": "^4.6.1",
@@ -3488,6 +3495,7 @@
       "integrity": "sha512-whOE1HFo/qJDyX4SnXzP4N6zOWn79WhnCUY/iDR0mPfQZO8wcYE4JClzI2oZrhBnnMUCBCHZhO6VQyoBU95mZA==",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "@rtsao/scc": "^1.1.0",
         "array-includes": "^3.1.9",
@@ -3555,6 +3563,7 @@
       "integrity": "sha512-jDex9s7D/Qial8AGVIHq4W7NswpUD5DPDL2RH8Lzd9EloWUuvUkHfv4FRLMipH5q2UtyurorBkPeNi1wVWNh3Q==",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "builtins": "^5.0.1",
         "eslint-plugin-es": "^4.1.0",
@@ -3581,6 +3590,7 @@
       "integrity": "sha512-57Zzfw8G6+Gq7axm2Pdo3gW/Rx3h9Yywgn61uE/3elTCOePEHVrn2i5CdfBwA1BLK0Q0WqctICIUSqXZW/VprQ==",
       "dev": true,
       "license": "ISC",
+      "peer": true,
       "engines": {
         "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
       },
@@ -3597,6 +3607,7 @@
       "integrity": "sha512-Qteup0SqU15kdocexFNAJMvCJEfa2xUKNV4CC1xsVMrIIqEy3SQ/rqyxCWNzfrd3/ldy6HMlD2e0JDVpDg2qIA==",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "array-includes": "^3.1.8",
         "array.prototype.findlast": "^1.2.5",
@@ -7680,6 +7691,7 @@
         }
       ],
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "nanoid": "^3.3.8",
         "picocolors": "^1.1.1",
@@ -7763,6 +7775,7 @@
       "integrity": "sha512-orRsuYpJVw8LdAwqqLykBj9ecS5/cRHlI5+nvTo8LcCKmzDmqVORXtOIYEEQuL9D4BxtA1lm5isAqzQZCoQ6Eg==",
       "dev": true,
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "cssesc": "^3.0.0",
         "util-deprecate": "^1.0.2"
@@ -8542,9 +8555,9 @@
       }
     },
     "node_modules/semantic-forms": {
-      "version": "5.3.2",
-      "resolved": "https://registry.npmjs.org/semantic-forms/-/semantic-forms-5.3.2.tgz",
-      "integrity": "sha512-o/a0iG2jMnv2/NENsSqhnv8RMwhhbP9EAaaW9krqiNwWrMLFY+81jTT4azaOxWOLi/cddSRq/OuLBlK02bEFUw==",
+      "version": "5.3.4",
+      "resolved": "https://registry.npmjs.org/semantic-forms/-/semantic-forms-5.3.4.tgz",
+      "integrity": "sha512-wnOyq5p8uPp4sw7ciuIL6DsBRDoaJYSkUS18ofAKEAcoiHmuGsPJiRjU6iLaUMGoLfpRMBsvfBRpKqKcqRZd/w==",
       "license": "CC-BY-4.0",
       "funding": {
         "url": "https://www.paypal.com/donate/?hosted_button_id=2L2X8GRXZCGJ6"
@@ -9344,6 +9357,7 @@
         }
       ],
       "license": "MIT",
+      "peer": true,
       "dependencies": {
         "@csstools/css-parser-algorithms": "^3.0.5",
         "@csstools/css-syntax-patches-for-csstree": "^1.0.19",
