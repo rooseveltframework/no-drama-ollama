@@ -33,3 +33,11 @@ Minimalist web client for [Ollama](https://ollama.com) which focuses on being ea
 ## Customize deployment
 
 To set a global system prompt to provide the model context to use before answering, set the environment variable `NO_DRAMA_OLLAMA_CONTEXT_FOLDER` to a directory containing [markdown](https://en.wikipedia.org/wiki/Markdown) (*.md) files with instructions for the model.
+
+## Integrating into other web apps
+
+There are many ways to integrate `no-drama-ollama` into your web application.
+
+One relatively straightforward way is to start `no-drama-ollama` as a child process from within your app, then proxy chat requests to the `no-drama-ollama` child process. See the [sample app](./sampleApps) for a demo of how to do that in Node.js.
+
+Another way to do it would be to run `no-drama-ollama` as a separate web service and use another web server to create a reverse proxy on the appropriate URLs instead of doing it from within your main application.

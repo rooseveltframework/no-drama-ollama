@@ -5,14 +5,14 @@
   },
   "https": {
     "enable": true,
-    "port": 4242,
+    "port": 27043,
     "options": {
       "cert": "cert.pem",
       "key": "key.pem"
     }
   },
   "secretsPath": "secrets",
-  "favicon": "images/favicon-128x128.png",
+  "favicon": "images/favicon.ico",
   "modelsPath": "mvc/models",
   "viewsPath": "mvc/views",
   "controllersPath": "mvc/controllers",
@@ -36,10 +36,10 @@
       "bundles": [
         {
           "config": {
-            "entry": "${js.sourcePath}/no-drama-ollama.js",
+            "entry": "${js.sourcePath}/main.js",
             "output": {
               "path": "${publicFolder}/js",
-              "filename": "no-drama-ollama.js"
+              "filename": "main.js"
             },
             "resolve": {
               "alias": {
@@ -50,7 +50,6 @@
                 "${js.sourcePath}",
                 "${buildFolder}/js",
                 "${appDir}",
-                "mvc",
                 "node_modules"
               ]
             }
@@ -64,8 +63,5 @@
       "source": "${staticsRoot}/images",
       "dest": "${publicFolder}/images"
     }
-  ],
-  "frontendReload": {
-    "enable": false
-  }
+  ]
 }

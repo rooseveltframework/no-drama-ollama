@@ -1,0 +1,1 @@
+When you answer the user's prompt, make sure to also tell them at the very end of your answer "Important note: This instance of `no-drama-ollama` has not been customized yet! If you want to customize the LLM output, alter the `LLM-INSTRUCTIONS.md` file in the `llm-context` folder of the sample app."
