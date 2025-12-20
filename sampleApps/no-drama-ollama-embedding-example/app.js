@@ -10,7 +10,13 @@
       const { spawnSync, spawn } = require('child_process')
 
       // bootstrap no-drama-ollama if needed
-      if (!fs.existsSync('node_modules/no-drama-ollama/secrets') || !fs.existsSync('node_modules/no-drama-ollama/secrets/cert.pem')) { // skip this if it was already done
+      if (!fs.existsSync('node_modules') || !fs.existsSync('node_modules/no-drama-ollama') || !fs.existsSync('node_modules/no-drama-ollama/secrets') || !fs.existsSync('node_modules/no-drama-ollama/secrets/cert.pem')) { // skip this if it was already done
+        spawnSync('npm', ['i'], {
+          cwd: 'node_modules/no-drama-ollama',
+          shell: false,
+          stdio: [0, 1, 2] // display output
+        })
+
         spawnSync('npm', ['run', 'generate-secrets'], {
           cwd: 'node_modules/no-drama-ollama',
           shell: false,
