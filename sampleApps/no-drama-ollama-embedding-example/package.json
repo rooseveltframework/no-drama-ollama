@@ -14,7 +14,7 @@
     "http-proxy": "1.18.1",
     "no-drama-ollama": "../../",
     "roosevelt": "0.31.7",
-    "sass": "1.97.1",
+    "sass": "1.97.2",
     "teddy": "1.1.4",
     "webpack": "5.104.1"
   },
