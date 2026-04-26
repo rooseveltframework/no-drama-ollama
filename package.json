@@ -38,7 +38,7 @@
     "semantic-forms": "5.3.5",
     "showdown": "2.1.0",
     "teddy": "1.1.4",
-    "webpack": "5.104.1"
+    "webpack": "5.106.2"
   },
   "devDependencies": {
     "nodemon": "3.1.14",
