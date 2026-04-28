@@ -33,8 +33,8 @@
   "dependencies": {
     "check-if-css-is-disabled": "2.0.2",
     "ollama": "0.6.3",
-    "roosevelt": "0.31.7",
-    "sass": "1.97.3",
+    "roosevelt": "0.31.8",
+    "sass": "1.99.0",
     "semantic-forms": "5.3.5",
     "showdown": "2.1.0",
     "teddy": "1.1.4",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "nodemon": "3.1.14",
     "standard": "17.1.2",
-    "stylelint": "17.9.0",
+    "stylelint": "17.9.1",
     "stylelint-config-standard-scss": "17.0.0"
   },
   "nodemonConfig": {
