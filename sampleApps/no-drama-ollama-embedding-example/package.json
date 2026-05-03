@@ -13,15 +13,15 @@
     "check-if-css-is-disabled": "2.0.2",
     "http-proxy": "1.18.1",
     "no-drama-ollama": "../../",
-    "roosevelt": "0.31.7",
-    "sass": "1.97.3",
+    "roosevelt": "0.31.8",
+    "sass": "1.99.0",
     "teddy": "1.1.4",
     "webpack": "5.106.2"
   },
   "devDependencies": {
     "nodemon": "3.1.14",
     "standard": "17.1.2",
-    "stylelint": "17.9.0",
+    "stylelint": "17.10.0",
     "stylelint-config-standard-scss": "17.0.0"
   },
   "nodemonConfig": {
