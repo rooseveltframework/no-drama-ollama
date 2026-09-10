@@ -31,7 +31,7 @@
     "statics"
   ],
   "dependencies": {
-    "check-if-css-is-disabled": "2.0.2",
+    "check-if-css-is-disabled": "2.1.0",
     "ollama": "0.6.3",
     "roosevelt": "0.31.8",
     "sass": "1.100.0",
